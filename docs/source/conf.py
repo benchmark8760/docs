@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Hourly BUilding Data'
+project = 'Hourly Building Data'
 copyright = '2022, JBB'
 author = 'JBB'
 
@@ -33,6 +33,3 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-master_doc = 'index'
-templates_path = ['_templates']
