@@ -1,22 +1,16 @@
-Welcome to Lumache's documentation!
+Welcome to Hourly Building Data documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Hourly Building Data** is an open-source solution for collecting hourly data from commercial buildings and aggregating them in a warehouse for analytics.
+
+The solution is deployed at `Hourly Building Data Proof of Concept <https://hourlybuildingdata.com/>`_
+for a set of participants.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
