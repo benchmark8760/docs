@@ -1,7 +1,3 @@
 Architecture
-===
+============
 
-.. autosummary::
-   :toctree: generated
-
-   

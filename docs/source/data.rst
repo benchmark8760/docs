@@ -1,7 +1,3 @@
 Data
-===
+====
 
-.. autosummary::
-   :toctree: generated
-
-   

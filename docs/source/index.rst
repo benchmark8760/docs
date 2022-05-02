@@ -1,5 +1,5 @@
 Welcome to Hourly Building Data documentation!
-===================================
+==============================================
 
 **Hourly Building Data** is an open-source solution for collecting hourly data from commercial buildings and aggregating them in a warehouse for analytics.
 
