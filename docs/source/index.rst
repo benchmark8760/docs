@@ -6,11 +6,14 @@ Welcome to Hourly Building Data documentation!
 The solution is deployed at `Hourly Building Data Proof of Concept <https://hourlybuildingdata.com/>`_
 for a set of participants.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 Contents
 --------
 
 .. toctree::
+	:maxdepth: 2
+
+	architecture
+	data
+	api
+	usage
 
