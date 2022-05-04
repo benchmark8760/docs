@@ -6,7 +6,7 @@ to fetch data from external meters attached to various properties and measuring 
 Then this data is aggregated to construct a per-property per-hour per-data-kind cleansed records that are collected across properties for analytics:
 
 .. figure:: top-level-architecture.png
-   :width: 50%
+   :width: 100%
 
    Architecture overview of the system
  
