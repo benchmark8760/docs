@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Hourly Building Data'
+project = 'Benchmark 8760 Platform'
 copyright = '2022, JBB'
 author = 'JBB'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0'
 
 # -- General configuration
 
