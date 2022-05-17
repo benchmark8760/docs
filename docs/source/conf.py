@@ -30,6 +30,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'bizstyle'
+html_logo = 'JBB-Icon-r4-short.png'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
