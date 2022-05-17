@@ -1,10 +1,13 @@
-Welcome to Hourly Building Data documentation!
-==============================================
+Benchmark 8760 Platform
+=======================
 
-**Hourly Building Data** is an open-source solution for collecting hourly data from commercial buildings and aggregating them in a warehouse for analytics.
+**The Benchmark 8760 Platform** is an open-source solution for collecting hourly data from commercial buildings and aggregating them for analytics.
 
-The solution is deployed at `Hourly Building Data Proof of Concept <https://hourlybuildingdata.com/>`_
-for a set of participants.
+The solution is deployed at the `Benchmark 8760 Proof of Concept Portal<https://benchmark8760.com/>`, _
+collecting and visualizing real time energy benchmarking data for a set of participants.
+
+This document is aimed at engineers willing to join the Platform and develop connectors to provide data. _
+It is best read together with the general Platform Technical Documentation located `here <https://benchmark8760.com>`. 
 
 Contents
 --------
