@@ -18,5 +18,5 @@ Contents
 	architecture
 	data
 	api
-	usage
+
 
