@@ -10,7 +10,10 @@ time period, and meta-information, similar to the following example:
 .. code-block:: xml
 
   <?xml version='1.0' encoding='UTF-8'?>
-  <bm:meterData xmlns:bm="http://benchmark8760.com/ns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:espm="http://portfoliomanager.energystar.gov/ns" xsi:schemaLocation="http://benchmark8760.com/ns http://benchmark8760.com/ns/main.xsd">
+  <bm:meterData xmlns:bm="http://benchmark8760.com/ns" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xmlns:espm="http://portfoliomanager.energystar.gov/ns" 
+                xsi:schemaLocation="http://benchmark8760.com/ns http://benchmark8760.com/ns/main.xsd">
     <bm:meteredData>
       <bm:meterURI>participant_1/config/meter_occupancy.xml</bm:meterURI>
       <bm:startTime>2021-12-22T12:00:00</bm:startTime>

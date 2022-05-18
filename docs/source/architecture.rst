@@ -38,12 +38,6 @@ The shared core is parsing these configurations to determine which cloud functio
 External connectors are not deployed with the platform, but are deployed externally and send standardized data directly to the GCP cloud storage buckets using the GCP cloud storage REST API. 
 They are not invoked by the shared core, and they are not configured in XML as invokable cloud functions. 
 
-
-Drop box
---------
-
-To ensure security external connectors are feeding the data into a special GCP storage bucket called 'dropbox'. The platform is then picking that data up and copying it to the appropriate locations for 'standardized' data.
-
 Data Warehouse
 --------------
 
