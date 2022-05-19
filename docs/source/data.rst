@@ -29,6 +29,6 @@ time period, and meta-information, similar to the following example:
 All times are in UTC, starting and including the `bm:startTime` up to but excluding the `bm:endTime`. The above snippet represents an occupancy meter reading of 7 
 for the period of one hour starting at noon on December 22, 2021. The meter was read much later, on March 18, 2022 as recorded in the `bm:audit` section.
 
-That means, to feed 24 hourly readings of 3 meters one needs to create 24 * 3 = 72 XML files and upload them to the platform using the HTTP `API <api.rst>`_.
+That means, to feed 24 hourly readings of 3 meters one needs to create 24 * 3 = 72 XML files and upload them to the platform using the HTTP `API <api.html>`_.
 
 Meter URI's are defined in the corresponding participant configuration XML file. By convention, they correspond to the GCP Cloud Storage names of these XML files.
