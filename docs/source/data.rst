@@ -10,10 +10,10 @@ time period, and meta-information, similar to the following example:
 .. code-block:: xml
 
   <?xml version='1.0' encoding='UTF-8'?>
-  <bm:meterData xmlns:bm="http://benchmark8760.com/ns" 
+  <bm:meterData xmlns:bm="http://benchmark8760.org/ns" 
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                 xmlns:espm="http://portfoliomanager.energystar.gov/ns" 
-                xsi:schemaLocation="http://benchmark8760.com/ns http://benchmark8760.com/ns/main.xsd">
+                xsi:schemaLocation="http://benchmark8760.org/ns http://benchmark8760.com/ns/main.xsd">
     <bm:meteredData>
       <bm:meterURI>participant_1/config/meter_occupancy.xml</bm:meterURI>
       <bm:startTime>2021-12-22T12:00:00</bm:startTime>
@@ -28,3 +28,7 @@ time period, and meta-information, similar to the following example:
 
 All times are in UTC, starting and including the `bm:startTime` up to but excluding the `bm:endTime`. The above snippet represents an occupancy meter reading of 7 
 for the period of one hour starting at noon on December 22, 2021. The meter was read much later, on March 18, 2022 as recorded in the `bm:audit` section.
+
+That means, to feed 24 hourly readings of 3 meters one needs to create 24 * 3 = 72 XML files and upload them to the platform using the HTTP `API <api.rst>`_.
+
+Meter URI's are defined in the corresponding participant configuration XML file. By convention, they correspond to the GCP Cloud Storage names of these XML files.

@@ -32,5 +32,11 @@ templates_path = ['_templates']
 html_theme = 'bizstyle'
 html_logo = 'JBB-Icon-r4-short.png'
 
+html_static_path = ['_static']
+
+html_css_files = [
+    'benchmark8760.css'
+]
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
