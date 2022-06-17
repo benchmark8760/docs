@@ -1,3 +1,6 @@
+Intro
+=====
+
 **The Benchmark 8760 Platform** is an open-source solution for collecting hourly energy performance data from commercial buildings, and exploring new performance benchmarking methodologies.
 
 The solution is deployed at the `Benchmark 8760 Proof of Concept Portal <https://benchmark8760.org/>`_ 
