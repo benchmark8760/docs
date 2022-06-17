@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Benchmark 8760 Platform'
-copyright = '2022, JBB'
-author = 'JBB'
+copyright = '2022, JB&B'
+author = 'JB&B'
 
 release = '1.0'
 version = '1.0'
