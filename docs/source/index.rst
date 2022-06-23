@@ -6,7 +6,7 @@ Intro
 The solution is deployed at the `Benchmark 8760 Proof of Concept Portal <https://benchmark8760.org/>`_ 
 which is collecting and visualizing anonymous hourly performance data provided by project participants.
 
-This documentation is aimed at engineers looking to deploy a copy of the Portal and project manufacturers looking to develop connectors to provide data to the platform. 
+This documentation is aimed at engineers looking to deploy a copy of the Portal and product manufacturers looking to develop connectors to provide data to the platform. 
 It is best read together with the general Platform Technical Documentation located `here <https://benchmark8760.org/Benchmark%208760%20Platform%20Technical%20Documentation.pdf>`_. 
 
 .. toctree::
