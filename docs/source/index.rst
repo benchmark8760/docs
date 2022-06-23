@@ -16,6 +16,7 @@ It is best read together with the general Platform Technical Documentation locat
 	data
 	api
 
+.. index:: Contact
 
 Contact Benchmark 8760 Platform Support at support@benchmark8760.org to obtain:
 

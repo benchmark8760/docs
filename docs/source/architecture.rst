@@ -1,6 +1,8 @@
 Architecture
 ============
 
+.. index:: Architecture
+
 The platform is designed as a cloud-native serverless solution built for Google Cloud Platform (GCP), 
 relying on Cloud Functions for its computing needs, on Cloud Storage buckets for all storage, and on BigQuery for combining collected data for analytics.
 
@@ -28,6 +30,8 @@ Then these per-sensor meter readings would be aggregated to estimate the total b
 Connectors
 ---------- 
 
+.. index:: Connectors
+
 Platform data connectors are internal to the platform, implemented and deployed as cloud functions.
 All connectors are configured with XML files stored on GCP cloud storage buckets of the appropriate platform participants. 
 The platform dispatcher is parsing these configurations to determine which cloud functions need to be invoked and with which parameters. 
@@ -46,6 +50,8 @@ Metered data is put into a broader context for analytics, given:
 + derived metrics, such as the difference between the internal building temperature and the outside temperature, that has to be achieved. 
 
 Meters and their association to specific properties is configured in XML for both, internal and external connectors. 
+
+.. index:: Data Flows
 
 Both, configuration data and metered data, is loaded into the data warehouse as illustrated with the following figure:
 

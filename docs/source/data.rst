@@ -1,6 +1,8 @@
 Data
 ====
 
+.. index:: Data Model
+
 The 'standardized' data represents meter readings in an XML format that is derived from the Energy Star Portfolio Manager (ESPM) XML exchange formats.
 This is the format used by external connectors to feed data.
 

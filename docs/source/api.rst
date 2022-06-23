@@ -4,6 +4,8 @@ API
 Data Upload API
 ---------------
 
+.. index:: Upload
+
 Platform participants can upload their data using the GCP Cloud Storage REST API. Data uploads are done to the special bucket called 'landing_zone'.
 Every hour a special internal landing zone connector is invoked that is pulling the new files from the landing zone and moving them into the standardized location.
 This internal landing zone connector is made to ensure that the third parties are isolated from the main data flow, and that the incoming files are checked prior to being accepted by the platform.
@@ -35,6 +37,8 @@ Accordingly, the external connectors can write a file, read that file knowing fi
 
 Data Download API
 -----------------
+
+.. index:: Download
 
 Platform participants can download their data using GCP cloud storage REST API and their login credentials to the platform. 
 If needed, service account credentials may be generated. 

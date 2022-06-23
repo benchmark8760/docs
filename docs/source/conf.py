@@ -38,5 +38,9 @@ html_css_files = [
     'benchmark8760.css'
 ]
 
+html_theme_options = {
+    'nosidebar': False
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
